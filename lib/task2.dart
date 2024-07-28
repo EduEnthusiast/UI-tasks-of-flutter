@@ -39,12 +39,14 @@ class Task2 extends StatelessWidget {
                   color: Colors.green,
                   borderRadius:BorderRadius.all(Radius.circular(20)),
                  ),
-                 child: const Text(
+                 child: const Center( 
+                   child: Text(
                   "Go to home",
                   textAlign: TextAlign.center,
                  style: TextStyle(
                   fontSize: 30,
                   color: Colors.white,
+                 ),
                  ),
                  ),
                  
